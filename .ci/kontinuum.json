@@ -1,0 +1,21 @@
+{
+  "type": "android",
+  "stages": [
+    {
+      "name": "testNoFirebaseForFDroidDebugComposer",
+      "needsEmulator": true
+    },
+    {
+      "name": "lint",
+      "needsEmulator": false
+    },
+    {
+      "name": "test",
+      "needsEmulator": false
+    },
+    {
+      "name": "assemble",
+      "needsEmulator": false
+    }
+  ]
+}
